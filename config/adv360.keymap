@@ -65,6 +65,118 @@
             bindings = <&kp ENTER>;
             key-positions = <31 32>;
         };
+
+        lll {
+            bindings = <&kp L>;
+            key-positions = <15 19>;
+            require-prior-idle-ms = <125>;
+            layers = <0>;
+            timeout-ms = <185>;
+        };
+
+        sss {
+            bindings = <&kp S>;
+            key-positions = <15 16>;
+            require-prior-idle-ms = <125>;
+            layers = <0>;
+            timeout-ms = <185>;
+        };
+
+        hhh {
+            bindings = <&kp H>;
+            key-positions = <17 32>;
+            require-prior-idle-ms = <125>;
+            layers = <0>;
+            timeout-ms = <185>;
+        };
+
+        www {
+            bindings = <&kp W>;
+            key-positions = <32 29>;
+            require-prior-idle-ms = <125>;
+            layers = <0>;
+            timeout-ms = <185>;
+        };
+
+        fff {
+            bindings = <&kp F>;
+            key-positions = <30 17>;
+            require-prior-idle-ms = <125>;
+            layers = <0>;
+            timeout-ms = <185>;
+        };
+
+        zzz {
+            bindings = <&kp Z>;
+            key-positions = <31 50>;
+            require-prior-idle-ms = <125>;
+            layers = <0>;
+            timeout-ms = <185>;
+        };
+
+        rrr {
+            bindings = <&kp R>;
+            key-positions = <19 16>;
+            require-prior-idle-ms = <125>;
+            layers = <0>;
+            timeout-ms = <185>;
+        };
+
+        ggg {
+            bindings = <&kp G>;
+            key-positions = <33 31>;
+            require-prior-idle-ms = <125>;
+            layers = <0>;
+            timeout-ms = <185>;
+        };
+
+        mmm {
+            bindings = <&kp M>;
+            key-positions = <33 30>;
+            require-prior-idle-ms = <125>;
+            layers = <0>;
+            timeout-ms = <185>;
+        };
+
+        nnn {
+            bindings = <&kp N>;
+            key-positions = <16 17>;
+            require-prior-idle-ms = <125>;
+            layers = <0>;
+            timeout-ms = <185>;
+        };
+
+        ttt {
+            bindings = <&kp T>;
+            key-positions = <17 18>;
+            require-prior-idle-ms = <125>;
+            layers = <0>;
+            timeout-ms = <185>;
+        };
+
+        vvv {
+            bindings = <&kp V>;
+            key-positions = <33 29>;
+            require-prior-idle-ms = <125>;
+            layers = <0>;
+            timeout-ms = <185>;
+        };
+
+        ddd {
+            bindings = <&kp D>;
+            key-positions = <30 31>;
+            require-prior-idle-ms = <125>;
+            layers = <0>;
+            timeout-ms = <185>;
+        };
+
+        ccc {
+            bindings = <&kp C>;
+            key-positions = <30 32>;
+            require-prior-idle-ms = <125>;
+            layers = <0>;
+            timeout-ms = <185>;
+        };
     };
 
     keymap {
