@@ -37,7 +37,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <185>;
-            quick-tap-ms = <185>;
+            quick-tap-ms = <(-1)>;
             require-prior-idle-ms = <125>;
             flavor = "tap-preferred";
         };
@@ -52,6 +52,7 @@
             quick-tap-ms = <200>;
             require-prior-idle-ms = <125>;
             flavor = "tap-preferred";
+            hold-trigger-key-positions = <66>;
         };
     };
 
@@ -92,7 +93,7 @@
 
         www {
             bindings = <&kp W>;
-            key-positions = <32 29>;
+            key-positions = <29 30>;
             require-prior-idle-ms = <125>;
             layers = <0>;
             timeout-ms = <185>;
