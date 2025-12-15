@@ -69,7 +69,7 @@
 
         lll {
             bindings = <&kp L>;
-            key-positions = <15 19>;
+            key-positions = <47 50>;
             require-prior-idle-ms = <125>;
             layers = <0>;
             timeout-ms = <185>;
@@ -77,7 +77,7 @@
 
         sss {
             bindings = <&kp S>;
-            key-positions = <15 16>;
+            key-positions = <47 48>;
             require-prior-idle-ms = <125>;
             layers = <0>;
             timeout-ms = <185>;
@@ -117,7 +117,7 @@
 
         rrr {
             bindings = <&kp R>;
-            key-positions = <19 16>;
+            key-positions = <49 50>;
             require-prior-idle-ms = <125>;
             layers = <0>;
             timeout-ms = <185>;
@@ -149,7 +149,7 @@
 
         ttt {
             bindings = <&kp T>;
-            key-positions = <17 18>;
+            key-positions = <49 50>;
             require-prior-idle-ms = <125>;
             layers = <0>;
             timeout-ms = <185>;
