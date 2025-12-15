@@ -117,7 +117,7 @@
 
         rrr {
             bindings = <&kp R>;
-            key-positions = <49 50>;
+            key-positions = <49 48>;
             require-prior-idle-ms = <125>;
             layers = <0>;
             timeout-ms = <185>;
